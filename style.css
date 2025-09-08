@@ -1,44 +1,44 @@
 body {
-    color: rgb(255, 0, 0); /* texto vermelho visível */
-    background: rgba(23, 197, 0, 0.575);
+    background: #c9f7c0; /* verde claro */
     margin: 5px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
+    color: black; /* cor padrão dos textos */
 }
 
 header {
-    border-bottom: solid 2px rgb(40, 126, 230); 
+    border-bottom: solid 3px #287ee6; /* azul */
     padding: 20px;
     font-size: 90px;
-    color: rgb(10, 110, 224); 
+    color: #0a6ee0; /* azul forte */
+    text-align: center;
+    text-shadow: 2px 2px #ffffff; /* leve sombra para destaque */
 }
 
 .chamada {
-    background: rgb(164, 166, 213); 
-    padding-bottom: 80px;
-    padding-top: 80px;
+    background: #e0f7e9; /* verde bem clarinho */
+    padding: 80px 20px;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .chamada-texto {
     margin-right: 5%;
+    color: #004d00; /* verde escuro */
 }
 
 h1 {
     font-size: 60px;
-    color: black;
+    color: #004d00; /* verde escuro */
+    margin-bottom: 20px;
 }
 
 p {
-    font-size: 60px;
-    color: black; 
-}
-
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 30px;
+    font-size: 28px;
+    line-height: 1.5;
+    color: black;
 }
 
 .categoria {
@@ -47,17 +47,32 @@ p {
     margin-top: 50px;
 }
 
+.categoria h2 {
+    color: #0a6ee0; /* azul */
+    font-size: 40px;
+    border-bottom: 2px solid #2dee47; /* detalhe verde */
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+
 .categoria-videos img {
-    opacity: 0.7;
+    opacity: 0.8;
     height: 200px;
+    border-radius: 12px;
     transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid rgb(0, 174, 255);
-}
-
-.categoria h2 {
-    color: rgb(45, 238, 71); 
+    transform: scale(1.05);
+    border: 3px solid #0a6ee0; /* azul */
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
 }
