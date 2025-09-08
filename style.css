@@ -1,21 +1,22 @@
 body {
-    background: #c9f7c0; 
+    background: #c9f7c0; /* verde claro */
     margin: 5px;
     font-family: "Chakra Petch", sans-serif;
     margin-bottom: 100px;
-    color: black; 
+    color: black;
+}
 
 header {
     border-bottom: solid 3px #287ee6;
     padding: 20px;
-    font-size: 90px;
+    font-size: 28px;
     text-align: center;
-    text-shadow: 2px 2px #ffffff; 
+    text-shadow: 1px 1px #ffffff;
 }
 
 .chamada {
-    background: #e0f7e9; /
-    padding: 80px 20px;
+    background: #e0f7e9;
+    padding: 40px 20px;
     display: flex;
     justify-content: center;
     border-radius: 15px;
@@ -24,17 +25,17 @@ header {
 
 .chamada-texto {
     margin-right: 5%;
-    color: #004d00; 
+    color: #004d00;
 }
 
 h1 {
-    font-size: 60px;
-    color: #004d00; /
+    font-size: 32px;
+    color: #004d00;
     margin-bottom: 20px;
 }
 
 p {
-    font-size: 28px;
+    font-size: 20px;
     line-height: 1.5;
     color: black;
 }
@@ -46,9 +47,9 @@ p {
 }
 
 .categoria h2 {
-    color: #0a6ee0; 
-    font-size: 40px;
-    border-bottom: 2px solid #2dee47; 
+    color: #0a6ee0;
+    font-size: 26px;
+    border-bottom: 2px solid #2dee47;
     display: inline-block;
     margin-bottom: 15px;
 }
