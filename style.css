@@ -9,7 +9,7 @@ body {
 header {
     border-bottom: solid 2px rgba(40, 126, 230, 0);
     padding: 20px;
-    font-size: 560px;
+    font-size: 70px;
     color: rgba(10, 110, 224, 0);
 }
 
@@ -26,17 +26,17 @@ header {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 p {
-    font-size: 20px;
+    font-size: 40px;
 }
 
 .categoria-videos {
     display: flex;
     overflow-x: auto;
-    gap: 10px;
+    gap: 30px;
 }
 
 .categoria {
@@ -52,9 +52,9 @@ p {
 
 .categoria-videos img:hover {
     opacity: 1.0;
-    border: 3px solid green;
+    border: 3px solid rgba(0, 114, 0, 0);
 }
 
 .categoria h2 {
-    color: rgb(45, 102, 238);
+    color: rgba(45, 103, 238, 0);
 }
